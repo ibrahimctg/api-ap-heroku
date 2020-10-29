@@ -5,7 +5,7 @@ var cors = require('cors');
 app.use(
     cors({
         credentials: true,
-        origin: 'localhost'
+        origin: '*'
     })
 );
 app.options('*', cors());
